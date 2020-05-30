@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate SUDOKU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chelsea+Market">
+    <script type="text/javascript" src="functionSudoku.js"></script>
+</head>
+<div style="display: block;" id="tutor" class="tutor">
+    <div class="tutor-cn">
+        <div style="width: 80px; height: 40px;">
+            <a href="index.html"><Button class="btnback"><i class="fa fa-long-arrow-left fa-3x" style="color: #ffffff;"></i></Button></a>
+        </div>
+        <h2>The Ultimate <span>Sudoku</span></h2>
+        <div class="poto-tutor">
+            <h4 style="font-family: Arial, Helvetica, sans-serif;">The Ultimate Sudoku v00.1</h4>
+            <p style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">Credit by : M1cro</p>
+        </div>
+        <div class="info-level">
+            <input style="width: 400px;" id="username" class="inp" type="text" placeholder="Username">
+            <input style="width: 200px;" id="level" class="inp" type="text" placeholder="Level : 1 - 9">
+            <button class="start" onclick="starting()">MULAI</button>
+        </div>
+    </div>
+</div>
+<div class="ended" id="ended" style="display: none;">
+    <div class="ended-wr">
+        <h2>The Ultimate <span>Sudoku</span></h2>
+        <div class="dis-end">
+            <h1 class="message"></h1>
+        </div>
+        <div class="btn-end">
+            <a href="index.html"><button class="disbtn">Keluar</button></a>
+            <button onclick="addlvl()" id="btnlanjut" class="disbtn">Lanjut</button>
+        </div>
+    </div>
+</div>
+<body>
+    <div class="nav-bar">
+        <div class="wr-navbar">
+            <div class="logo-sudo">
+                <img class="logi-img" src="media/Untitled.png" alt="">
+            </div>
+            <div class="name-game">
+                <h4 style="font-size: 20px; font-weight: lighter;">The Ultimate <span style="color: rgb(255, 123, 0); font-size: 26px; font-weight: bold;">Sudoku</span></h4>
+                <h5 id="level" class="usr-lvl"></h5>
+            </div>
+            <div class="username-wr">
+                <h4 class="usernamed"></h4>
+                <div class="heart-wr">
+                    <img class="heart" src="media/heart.png" alt="hati">
+                    <h4 class="heart-vl"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container-cn" style="display: none;" class="container-cn"></div>
+    <!-- <table id="container-cn" class="container-cn" style="display: none;"> -->
+    </table>
+</body>
+</html>
