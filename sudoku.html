@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ultimate SUDOKU</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chelsea+Market">
     <script type="text/javascript" src="functionSudoku.js"></script>
@@ -20,8 +21,8 @@
             <p style="font-size: 12px; font-family: Arial, Helvetica, sans-serif;">Credit by : M1cro</p>
         </div>
         <div class="info-level">
-            <input style="width: 400px;" id="username" class="inp" type="text" placeholder="Username">
-            <input style="width: 200px;" id="level" class="inp" type="text" placeholder="Level : 1 - 9">
+            <input id="username" class="inp inp-usr" type="text" placeholder="Username">
+            <input id="level" class="inp inp-lvl" type="text" placeholder="Level : 1 - 9">
             <button class="start" onclick="starting()">MULAI</button>
         </div>
     </div>
@@ -45,7 +46,7 @@
                 <img class="logi-img" src="media/Untitled.png" alt="">
             </div>
             <div class="name-game">
-                <h4 style="font-size: 20px; font-weight: lighter;">The Ultimate <span style="color: rgb(255, 123, 0); font-size: 26px; font-weight: bold;">Sudoku</span></h4>
+                <h4 class="namegame" style="font-size: 20px; font-weight: lighter;">The Ultimate <span style="color: rgb(255, 123, 0); font-size: 26px; font-weight: bold;">Sudoku</span></h4>
                 <h5 id="level" class="usr-lvl"></h5>
             </div>
             <div class="username-wr">
