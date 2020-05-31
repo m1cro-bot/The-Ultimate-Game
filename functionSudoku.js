@@ -241,16 +241,19 @@ window.onbeforeunload = function(){
 
 const ended = (data) => {
     const ends = document.getElementById("ended")
+    const endedwrs = document.getElementById("ended-wr")
     const btnends = document.querySelector("#btnlanjut")
     const messages = document.querySelector(".message")
     if (data === 1){
         ends.style.display = "block"
+        endedwrs.style.height = "260px"
         messages.innerHTML = "Selamat!!"
         btnends.style.display = "inline"
         reloaded = false
     }
     else if (data === 0){
         ends.style.display = "block"
+        endedwrs.style.height = "200px"
         messages.innerHTML = "Gagal!!"
         btnends.style.display = "none"
         reloaded = false

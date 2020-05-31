@@ -4,40 +4,6 @@
     .container {
         width: 100%;
     }
-    .logo h1 {
-        font-size: 30px;
-    }
-    h1 span {
-        font-size: 40px;
-    }
-    .btn-games {
-        width: 90%;
-    }
-    /*sudoku*/
-    .tutor-cn {
-        width: 95%;
-        height: 500px;
-    }
-    .tutor-cn h2 {
-        font-size: 20px;
-    }
-    .tutor-cn span {
-        font-size: 25px;
-    }
-    .poto-tutor {
-        height: 70px;
-    }
-    .info-level {
-        width: 95%;
-    }
-    .inp {
-        margin-left: 0;
-        width: 100%;
-    }
-    .start {
-        margin-left: 0;
-        width: 100%;
-    }
     /*sudoku map*/
     .wr-navbar {
         width: 98%;
@@ -51,34 +17,6 @@
 @media all and (max-width: 600px) {
     /*main*/
     .container {
-        width: 100%;
-    }
-    .logo h1 {
-        font-size: 20px;
-    }
-    h1 span {
-        font-size: 30px;
-    }
-    .btn-games {
-        width: 90%;
-    }
-    /*sudoku*/
-    .tutor-cn {
-        width: 95%;
-        height: 500px;
-    }
-    .poto-tutor {
-        height: 200px;
-    }
-    .info-level {
-        width: 95%;
-    }
-    .inp {
-        margin-left: 0;
-        width: 100%;
-    }
-    .start {
-        margin-left: 0;
         width: 100%;
     }
     /*sudoku map*/
